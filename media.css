@@ -1,0 +1,10 @@
+@media screen and (min-width: 700px) {
+    .flex {
+    width: calc(50% - 20px);    
+    }
+}
+@media screen and (min-width: 1000px) {
+    .flex {
+    width: calc(25% - 20px);    
+    }
+}

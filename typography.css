@@ -1,0 +1,45 @@
+h1 {
+    background-color: rgb(15, 110, 78);
+    font-size: 50px;
+    padding: 10px;
+    font-family: 'light';
+    color: white;
+    text-align: center;
+}
+h2 {
+    font-family: 'extraLight';
+    padding: 15px;
+}
+p {
+    font-family: 'thin';
+    padding: 10px;
+}
+h3 {
+    font-family: 'thin';
+    padding: 10px;
+    font-size: 10px;
+    color: white;
+}
+article {
+    color: white;
+    padding: 20px;
+}
+
+@font-face {
+    font-family: 'light';
+    src: url(fonts/Raleway-Light.ttf);
+    font-style: normal;
+    font-weight: 100;
+}
+@font-face {
+    font-family: 'extraLight';
+    src: url(fonts/Raleway-ExtraLight.ttf);
+    font-style: normal;
+    font-weight: 100;
+}
+@font-face {
+    font-family: 'thin';
+    src: url(fonts/Raleway-Thin.ttf.ttf);
+    font-style: normal;
+    font-weight: 100;
+}
