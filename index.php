@@ -31,12 +31,14 @@ require __DIR__ ."/functions.php";
 <div class="flex-container">
 
 <?php foreach ($articles as $article): ?>
-
+    <?php foreach ($authors as $author): ?>
     <article class=flex-items>
         <h2><?= $article['title'] ?></h2>
         <img src="<?= $article['img_url'] ?>" alt="<?= $article['title'] ?>"/>
         <p><?= $article['content'] ?></p>
+        <p><?= $author['id'] . " | " . $author['name'] ?></p>
     </article>
+    <?php endforeach; ?>
 <?php endforeach; ?>
    
 </div>

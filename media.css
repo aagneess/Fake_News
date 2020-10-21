@@ -8,3 +8,25 @@
     width: calc(25% - 20px);    
     }
 }
+
+@media (prefers-color-scheme: light) {
+    :root {
+        --bg: rgb(248, 246, 240);
+        --color: black;
+        --articlebg: rgb(233, 230, 223);
+    }
+}
+@media (prefers-color-scheme: dark) {
+    :root {
+        --bg: #161616;
+        --color: white;
+        --articlebg:#202020;
+    }
+}
+body {
+    background: var(--bg);
+}
+.flex-items {
+    color: var(--color);
+    background: var(--articlebg);
+}

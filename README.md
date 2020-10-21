@@ -1,3 +1,3 @@
 # Fake_News
 
-byt raleway-fonten (ej stöd för specialtecken)
+byt raleway-fonten (inte så läsbar)

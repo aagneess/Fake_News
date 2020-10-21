@@ -1,9 +1,9 @@
 h1 {
-    background-color: rgb(15, 110, 78);
+    background-color:#40533d;
     font-size: 50px;
     padding: 10px;
     font-family: 'light';
-    color: white;
+    color:#e0e0cf;
     text-align: center;
 }
 h2 {
@@ -39,7 +39,7 @@ article {
 }
 @font-face {
     font-family: 'thin';
-    src: url(fonts/Raleway-Thin.ttf.ttf);
+    src: url(fonts/Raleway-Thin.ttf);
     font-style: normal;
     font-weight: 100;
 }
