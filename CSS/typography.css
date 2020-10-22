@@ -1,10 +1,20 @@
-h1 {
-    background-color:#40533d;
+.mainPage {
     font-size: 50px;
     padding: 10px;
     font-family: 'light';
     color:#e0e0cf;
-    text-align: center;
+
+}
+
+h1 {
+    font-size: 50px;
+    padding: 10px;
+    font-family: 'light';
+    color:#e0e0cf;
+    display: flex;
+
+
+    
 }
 h2 {
     font-family: 'extraLight';

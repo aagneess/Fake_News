@@ -12,7 +12,9 @@ body {
     justify-content: center;
 }
 header {
+    display: flex;
     position: fixed;
     width: 100%;
     height: 100px;
+    background-color:#40533d;
 }

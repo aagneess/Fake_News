@@ -14,31 +14,34 @@ require __DIR__ ."/functions.php";
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="flex.css">
-    <link rel="stylesheet" href="typography.css">
-    <link rel="stylesheet" href="media.css">
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="CSS/flex.css">
+    <link rel="stylesheet" href="CSS/typography.css">
+    <link rel="stylesheet" href="CSS/media.css">
     <title>Fake News</title>
 </head>
 
 <body>
 
 <header>
-    <h1>The Food Blog</h1>
+    <p class="mainPage">Fake News</p><h1>The Food Blog</h1>
 </header>
 
 <main>   
 <div class="flex-container">
 
 <?php foreach ($articles as $article): ?>
-    <?php foreach ($authors as $author): ?>
+    
     <article class=flex-items>
+    
         <h2><?= $article['title'] ?></h2>
         <img src="<?= $article['img_url'] ?>" alt="<?= $article['title'] ?>"/>
         <p><?= $article['content'] ?></p>
-        <p><?= $author['id'] . " | " . $author['name'] ?></p>
+        <p><?= getAuthorNameById($authors, $id);?></p>
+        <p><?= $article['publishedDate'] ?></p>
+        <p><?= "Likes: " . $article['likes'] ?><button>x</button></p> 
     </article>
-    <?php endforeach; ?>
+    
 <?php endforeach; ?>
    
 </div>
