@@ -37,7 +37,7 @@ require __DIR__ ."/functions.php";
         <h2><?= $article['title'] ?></h2>
         <img src="<?= $article['img_url'] ?>" alt="<?= $article['title'] ?>"/>
         <p><?= $article['content'] ?></p>
-        <p><?= getAuthorNameById($authors, $id);?></p>
+        <p><?= getAuthorById($id['id'], $authors);?></p>
         <p><?= $article['publishedDate'] ?></p>
         <p><?= "Likes: " . $article['likes'] ?><button>x</button></p> 
     </article>

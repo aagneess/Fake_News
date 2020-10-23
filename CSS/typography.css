@@ -1,20 +1,20 @@
 .mainPage {
+    display: flex;
+    justify-content: flex-start;
     font-size: 50px;
     padding: 10px;
     font-family: 'light';
     color:#e0e0cf;
 
 }
-
 h1 {
+    display: flex;
+    justify-content: center;
     font-size: 50px;
     padding: 10px;
     font-family: 'light';
     color:#e0e0cf;
-    display: flex;
-
-
-    
+    display: flex; 
 }
 h2 {
     font-family: 'extraLight';
