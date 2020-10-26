@@ -15,7 +15,12 @@ main {
     justify-content: center;
 }
 body {
-    background-color: #161616;
     justify-content: center;
+}
+.authorBar {
+    display: inline-flex;
+    width: 100%;
+    height: 2,5rem;
+    border-radius: 4%;
 }
 
