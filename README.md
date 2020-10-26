@@ -1,5 +1,13 @@
-<<<<<<< HEAD
 # Fake News
-=======
-# Fake News
->>>>>>> ae41c07c6df3bc57c6b1660198746978bc7b2aaa
+![yum](images/giphy.gif)
+
+# Installation
+Clone the repository to your computer:
+```
+git clone https://github.com/aagneess/Fake_News
+```
+Start your local server:
+```
+php -S localhost:8000
+```
+And finally, open the project in your preferred browser! :)
