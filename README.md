@@ -1,2 +1,1 @@
-# Fake_News
-<iframe src="https://giphy.com/embed/ME7fKTxMhQGd2" width="480" height="258" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/emma-stone-eating-hungry-ME7fKTxMhQGd2"></a></p>
+# Fake News
