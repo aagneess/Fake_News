@@ -1,16 +1,32 @@
-/* @media screen and (min-width: 700px) {
-    .flex {
-    width: calc(50% - 20px);    
+@media screen and (max-width: 700px) {
+    .info {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+    article {
+        margin: auto;
+        margin-bottom: 10px;
+        width: 450px;
+        justify-content: center;
+        
     }
 }
-@media screen and (min-width: 1000px) {
+@media screen and (min-width: 700px) {
     .flex {
     width: calc(100% - 20px);    
     }
-} */
+} 
+@media screen and (min-width: 1300px) {
+
+}
+
+
+
 
 @media (prefers-color-scheme: light) {
     :root {
+        
         --bg: rgb(248, 246, 240);
         --color: black;
         --articlebg: rgb(233, 230, 223);

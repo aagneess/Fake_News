@@ -5,7 +5,19 @@
 ?>
 
 <header>
-    <p class="mainPage">Fake News</p><p class="pageTitle">The Food Blog</p>
+    <div class="main">
+        <p class="mainPage">Fake News</p>
+    </div>
+
+    <div class="title">
+        <p class="pageTitle">The Food Blog</p>
+    </div>
+
+    <div class="info">
+        <a href="deadlink">About</a>
+        <a href="deadlink">Contact</a>
+        <a href="deadlink">Recipes</a>
+    </div>
 </header> 
 
 <main>
@@ -20,7 +32,8 @@
         <div class="authorBar">
         <p><?= getAuthorById($article['id'], $authors);?></p>
         <p><?= $article['publishedDate'] ?></p>
-        <p><?= "Likes: " . $article['likes'] ?><button>x</button></p> 
+        <p><?= "Likes: " . $article['likes'] ?>
+        <button></button></p> 
         </div>
     </article>
     

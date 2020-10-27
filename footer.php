@@ -1,4 +1,3 @@
-<footer>&copy; Fake News Ltd.</footer>
-
+<!-- <footer>&copy; Fake News Ltd.</footer> -->
 </body>
 </html>

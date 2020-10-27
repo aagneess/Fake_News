@@ -3,15 +3,26 @@
     flex-direction: column;
     justify-content: center;
     width: 800px;
-    margin-top: 120px;
+    margin-top: 150px;
 }
 article {
     display: flex;
     flex-direction: column;
-    padding: 20px;
     margin-bottom: 20px;
-    border-radius: 1%;
+    border-radius: 1rem;
 }
 img {
     width: 100%;
+    padding: 1rem;
+}
+.authorBar {
+    margin: auto;
+    align-items: center;
+    display: flex;
+    background-color: rgb(240, 236, 229);
+    box-shadow: 1px 1px 1px 1px rgb(182, 182, 182);
+    width: 95%;
+    height: 2rem;
+    border-radius: 1rem;
+    justify-content: space-between;
 }

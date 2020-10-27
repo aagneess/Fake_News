@@ -1,5 +1,5 @@
 # Fake News
-![yum](images/giphy.gif)
+<img src="https://media.giphy.com/media/Vs8SNKalTeQOQ/giphy.gif" width="100%">
 
 ## Installation
 Clone the repository to your computer:
@@ -21,4 +21,5 @@ Aseel Mohamad:
 -
 
 ## License
-This project is licensed under the MIT License - see LICENSE file for more details
+MIT License - see LICENSE file for more details
+https://github.com/aagneess/Fake_News/blob/main/LICENSE

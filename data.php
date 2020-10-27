@@ -4,15 +4,10 @@ declare(strict_types=1);
 
 $authors = [
     ['id' => 1, 'name' => 'The Cajun Cook'],
-
     ['id' => 2, 'name' => 'The Coffee Aficionado'],
-
     ['id' => 3, 'name' => 'The Ramen Lover'],
-
     ['id' => 4, 'name' => 'The Wine Connoisseur'],
-
     ['id' => 5, 'name' => 'Veggie Peggy'],
-
 ];
 
 $articles = [
