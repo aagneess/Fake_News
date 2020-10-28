@@ -32,8 +32,7 @@
         <div class="authorBar">
         <p><?= getAuthorById($article['id'], $authors);?></p>
         <p><?= $article['publishedDate'] ?></p>
-        <p><?= "Likes: " . $article['likes'] ?>
-        <button></button></p> 
+        <p><?= "Likes: " . $article['likes'] ?></p> 
         </div>
     </article>
     
