@@ -1,17 +1,14 @@
 .mainPage {
     font-size: 2.2rem;
-    color: #d3521c;
     font-family: 'mainPage';
     padding: 5px;
 }
 .pageTitle {
     font-size: 3.2rem;
-    color: #d3521c;
     font-family: 'pageTitle';
     padding: 10px;
 }
 a {
-    color: #d3521c;
     text-decoration: none;
 }
 .articleTitle {

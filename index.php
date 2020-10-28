@@ -2,6 +2,7 @@
     require __DIR__ ."/header.php";
     require __DIR__ ."/data.php";
     require __DIR__ ."/functions.php";
+    require __DIR__ ."/footer.php";
 ?>
 
 <header>
@@ -39,5 +40,3 @@
 <?php endforeach; ?>   
 </div>
 </main> 
-
-<?php require __DIR__ ."/footer.php";?>
