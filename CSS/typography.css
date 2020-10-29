@@ -3,6 +3,9 @@
     font-family: 'mainPage';
     padding: 5px;
 }
+.mainPage:hover {
+    transform: scale(1.1);
+}
 .pageTitle {
     font-size: 3.2rem;
     font-family: 'pageTitle';
@@ -21,8 +24,12 @@ article {
     font-family: 'articleText';
     padding: 2rem;
 }
-p {
+.content {
+    margin-bottom: 2rem;
     padding: 1rem;
+}
+.auhtorBar {
+    margin-top: 1rem;
 }
 
 @font-face {

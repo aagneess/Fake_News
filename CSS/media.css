@@ -19,8 +19,13 @@
         justify-content: center;
     }
     .authorBar {
-        font-size: 12px;
+        font-size: 11px;
+        align-items: center;
     }
+    .likeBtn {
+        width: 47px;
+    }
+    
 }
 @media screen and (min-width: 700px) {
     .main {
@@ -110,5 +115,3 @@ article {
     background-color: var(--barbg);
     box-shadow: var(--barshadow);
 }
-
-

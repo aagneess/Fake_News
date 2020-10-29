@@ -7,7 +7,7 @@
 
 <header>
     <div class="main">
-        <p class="mainPage">Fake News</p>
+        <a class="mainPage" href="deadlink">Fake News</a>
     </div>
 
     <div class="title">
@@ -31,9 +31,17 @@
         <p class="content"><?= $article['content'] ?></p>
 
         <div class="authorBar">
-        <p><?= getAuthorById($article['id'], $authors);?></p>
-        <p><?= $article['publishedDate'] ?></p>
-        <p><?= "Likes: " . $article['likes'] ?></p> 
+
+            <div class="authorDate">
+                <p><?= getAuthorById($article['id'], $authors);?></p>
+                <p><?= $article['publishedDate'] ?></p>
+            </div>
+
+            <div class="likes">
+            <p><?= "Likes: " . $article['likes']?></p> 
+            <img class="likeBtn" src="images/like.svg"/>
+            </div>
+            
         </div>
     </article>
     

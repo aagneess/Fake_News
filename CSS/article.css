@@ -2,7 +2,6 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    width: 800px;
     margin-top: 150px;
 }
 article {
@@ -19,8 +18,28 @@ img {
     margin: auto;
     align-items: center;
     display: flex;
-    width: 95%;
+    width: 100%;
     height: 2rem;
     border-radius: 1rem;
-    justify-content: space-between;
+    /* justify-content: space-between; */
+}
+.authorDate {
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+}
+.likes {
+    width: 40%;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 1rem;
+    align-items: center;
+}
+.likeBtn {
+    width: 55px;
+    display: flex;
+    justify-content: right;
+}
+.likeBtn:hover {
+    transform: scale(1.3);
 }
