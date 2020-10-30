@@ -1,7 +1,7 @@
 {
     "liveServer.settings.port": 5501
 }
-// "[php]": {
-//     "editor.defaultFormatter": "bmewburn.vscode-intelephense-client",
-//     "editor.formatOnSave": true
-// }
+"[php]": {
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "bmewburn.vscode-intelephense-client"
+  },
