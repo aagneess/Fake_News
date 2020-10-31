@@ -1,13 +1,19 @@
 @media screen and (max-width: 700px) {
-    .main {
-        width: 300px;
+    .main .mainPage {
+        width: 100px;
         text-align: center;
+        font-size: 1.5rem;
     }
-    .title {
-        width: 800px;
+
+    .title .pageTitle {
+        width: 200px;
+        font-size: 2rem;
+        display: flex;
+        justify-content: center;
     }
+ 
     .info {
-        width: 300px;
+        width: 100px;
         display: flex;
         flex-wrap: wrap;
         flex-direction: column;
@@ -15,7 +21,7 @@
     article {
         margin: auto;
         margin-bottom: 10px;
-        width: 450px;
+        width: 400px;
         justify-content: center;
     }
     .authorBar {
@@ -28,6 +34,7 @@
     
 }
 @media screen and (min-width: 700px) {
+
     .main {
         width: 600px;
         text-align: center;
