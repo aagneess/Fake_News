@@ -1,6 +1,18 @@
 # Fake News
 <img src="https://media.giphy.com/media/Vs8SNKalTeQOQ/giphy.gif" width="100%">
 
+## Built with 
+* PHP
+* HTML
+* CSS
+
+## Author
+**Agnes Binett** 
+
+## Testers
+* Gilda Eklöf
+* Simon Lindstedt
+
 ## Installation
 Clone the repository to your computer:
 ```
