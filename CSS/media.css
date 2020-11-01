@@ -1,3 +1,36 @@
+@media screen and (max-width: 411px) {
+    header {
+        width: 320px;
+    }
+    .main {
+        width: 25%;
+    }
+    .mainPage {   
+        font-size: 0.4rem;
+    }
+    .title {
+        width: 55%;
+        display: flex;
+        justify-content: center;
+    }
+    .pageTitle {
+        font-size: 2rem;
+    }
+    .info {
+        width: 20%;
+        font-size: 0.8rem;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+    .articleContainer article {
+        width: 300px;
+        padding: 0px;
+    }
+    .content {
+        margin-bottom: 0px;
+    }
+}
 @media screen and (max-width: 700px) {
     .main .mainPage {
         width: 100px;
@@ -14,6 +47,7 @@
  
     .info {
         width: 100px;
+        font-size: 0.8rem;
         display: flex;
         flex-wrap: wrap;
         flex-direction: column;

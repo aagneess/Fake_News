@@ -11,18 +11,18 @@
     </div>
 
     <div class="title">
-        <p class="pageTitle">The Food Blog</p>
+        <h1 class="pageTitle">The Food Blog</h1>
     </div>
 
-    <div class="info">
+    <nav class="info">
         <a href="deadlink">About</a>
         <a href="deadlink">Contact</a>
         <a href="deadlink">Recipes</a>
-    </div>
+    </nav>
 </header> 
 
 <main>
-<div class="article-container">
+<div class="articleContainer">
 <?php foreach ($articles as $article): ?>
     
     <article>    
@@ -41,7 +41,7 @@
             <p><?= "Likes: " . $article['likes']?></p> 
             <img class="likeBtn" src="images/like.svg"/>
             </div>
-            
+
         </div>
     </article>
     
