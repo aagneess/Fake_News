@@ -10,9 +10,6 @@
       path {
           fill: #000;
       }
-      path:hover {
-          fill: #DC143C;
-      }
     }
 </style>
 
